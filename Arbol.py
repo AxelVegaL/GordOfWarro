@@ -1,55 +1,29 @@
 class ArbolGenealogico:
     def __init__(self):
-        self.arbol = {
+        """ self.arbol = {
             "Uziel": ["Jesús", "Graciela"],
             "Jesús": ["José", "Luis Miguel"],
             "José": ["Christina", "Xavier"],
-            "Christina": ["Michael", "Michelle"],
+            "Christina": ["Michael"],
             "Michael":[],
             "Michelle":[],
-            "Xavier": ["Barak"],
-            "Barak": ["George", "Kaleb"],
-            "George": [],
-            "Kaleb": [],
-            "Luis Miguel": ["Lionel", "Cristiano R", "Diego"],
-            "Lionel": ["Ronaldinho", "Dana"],
-            "Ronaldinho": [],
-            "Dana": ["Goku"],
-            "Goku": ["Gohan", "Goten"],
-            "Goten": [],
-            "Gohan": ["Pan"],
-            "Pan": ["Goku II"],
-            "Goku II": [],
-            "Cristiano R": ["Cristian N"],
-            "Cristian N": ["Benito"],
-            "Benito": ["Daniel", "Kevin"],
-            "Daniel": [],
-            "Kevin": [],
-            
-            "Graciela": ["Valentina", "Alfredo"],
-            "Valentina":["Magi","Bart"],
-            "Magi":["Brayan","Valentina II"],
-            "Brayan":["Kimberly","Britani"],
-            "Kimberly":["Ian"],
-            "Ian":["Yandel","Alexander"],
-            "Yandel":[],
-            "Alexander":[],
-            "Britani":[],
-            
-            "Valentina II":["Alex","Penelope"],
-            "Alex":[],
-            "Penelope":[],
-            
-            "Alfredo":["Joaquín","Juan"],
-            "Joaquín":["Arturo"],
-            "Arturo":["Ovidio"],
-            "Ovidio":[],
-            "Juan":["Melchor"],
-            "Melchor":["Gaspar","Baltazar"],
-            "Gaspar":["Eliel"],
-            "Eliel":[],
-            "Baltazar":["Omar"],
-            "Omar":[],
+        } """ #Ps de ejemplo :D
+
+        #Elias: Apolo
+        #Axel: Hermes
+        #Ambrosio: Callisto
+
+        self.arbol = {
+            "Zeus": ["Apolo","Artemisa"],
+
+            "Apolo": [],
+
+            "Artemisa": ["Hermes","Callisto"],
+
+            "Hermes": [],
+            "Callisto": [],
+
+
         }
 
     def encontrar_lca(self, personas):
