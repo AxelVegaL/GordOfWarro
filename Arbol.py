@@ -3,9 +3,9 @@ class ArbolGenealogico:
         """ self.arbol = {
             "Uziel": ["Jesús", "Graciela"],
             "Jesús": ["José", "Luis Miguel"],
-            "José": ["Christina", "Xavier"],
-            "Christina": ["Michael"],
-            "Michael":[],
+            "José": ["Christina", "Xavier"], #Pos de 2 veda
+            "Christina": ["Michael"], #Cuando tiene 1 solo hijo
+            "Michael":[], #Cuando no tiene Hijos
             "Michelle":[],
         } """ #Ps de ejemplo :D
 
