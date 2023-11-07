@@ -213,7 +213,60 @@ class ArbolGenealogico:
             "Neleo":[],
             "Pelias": [],
 
-            "Callisto": [],
+            #Padre de lado derecho
+            "Callisto": ["Arcas","Iasion"],
+            #Izquierda
+            "Arcas": ["Elato","Azeo"],
+            "Elato": ["Apolis","Toxeo"],
+            "Apolis": [],
+            "Toxeo": [],
+            
+            "Azeo": ["Carpo","Eufrosine"],
+            "Carpo": ["Ascaio", "Corinto"],
+            "Ascaio": ["Ateneo","Atuctona"],
+            "Ateneo": [],
+            "Autoctona": [],
+            "Corinto": ["Eutonos","Bellerofonte"],
+            "Eutonos": [],
+            "Bellerofonte": [],
+            
+            "Eufrosine": ["Cleta","Euforion"],
+            "Cleta": ["Doris","Melite"],
+            "Doris": [],
+            "Melite": [],
+            "Euforion": ["Deifone","Danae"],
+            "Deifone": [],
+            "Danae": [],
+            #Derecha
+            "Iasion": ["Demofonte","Pluto"],
+            "Demofonte": ["Amintor","Cale"],
+            "Amintor": ["Emetes","Etesicoro"],
+            "Emetes": ["Psamathe","Echinades"],
+            "Psamathe": [],
+            "Echinades":[],
+            "Etesicoro": ["Arete","Nicias"],
+            "Arete": [],
+            "Nicias": [],
+            "Cale": ["Micceon","Lutro"],
+            "Micceon": ["Hipseo","Sceus"],
+            "Hipseo": [],
+            "Sceus": [],
+            "Lutro": ["Himera", "Eryx"],
+            "Himera": [],
+            "Eryx": [],
+            
+            "Pluto": ["Zagreo","Iaco"],
+            "Zagreo": ["Agave","Pantino"],
+            "Agave": ["Penteo","Pirante"],
+            "Penteo": [],
+            "Pirante": [],
+            "Pantino": ["Menesicle","Leocoridas"],
+            "Menesicle": [],
+            "Leocoridas": [],
+            
+            "Iaco": ["Acasto","Pelias"],
+            "Acasto": [],
+            "Pelias": []
 
 
         }
