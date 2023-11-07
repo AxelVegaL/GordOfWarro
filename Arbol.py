@@ -16,7 +16,81 @@ class ArbolGenealogico:
         self.arbol = {
             "Zeus": ["Apolo","Artemisa"],
 
-            "Apolo": [],
+            "Apolo": ["Asclepio","Orfeo"],
+                #Sub Arbol Asclepio:
+                "Asclepio": ["Podalirio","Machaon"],
+                    #Sub Arbol Podalirio:
+                    "Podalirio": ["Polidoro"],
+                        "Polidoro": ["Peonio","Polifonte"],
+                            "Peonio": ["Anficlea","Icario"],
+                                "Anficlea": ["Milo","Bato"],
+
+                                "Icario": ["Ersinoe","Ritmo"],
+                                    "Ersinoe" : ["Butes","Crenaeus"],
+                                    "Ritmo": ["Tirreno","Carme"],
+
+                            "Polifonte": ["Bacis","Cometes"],
+                                "Bacis": ["Cleoboea", "Ismaro"],
+                                    "Cleoboea" : ["Clytie", "Leucothea"],
+                                    "Ismaro" : ["Marpessa","Hypsipyle"],
+                                "Cometes": ["Lelanto","Titono"],
+                                    "Lelanto":["Pegasides","Nereides"],
+                                    "Titono": ["Eos","Hemera"],
+                    #Sub Arbol Machaon:
+                    "Machaon": ["Nireo","Nicomedes"],
+                        #Sub Arbol Nireo:
+                        "Nireo": ["Iofante","Pandaro"],
+                            "Iofante": ["Sicino","Ceafix"],
+                                "Sicino" :["Etolo", "Sibaris"],
+                                    "Etolo": ["Leucippe","Thestius"],
+                                    "Sibaris":["Hesperia", "Lapyx"],
+                                "Ceafix":["Toloso", "Cecrope"],
+                                    "Toloso":["Gelone","Batis"],
+                                    "Cecrope":["Europa","Cadmus"],
+                            "Pandaro":["Atymnius","Equeclea"],
+                                "Atymnius":["Aglao","Androgea"],
+                                    "Aglao":["Lilaea","Podargos"],
+                                    "Androgea":["Ceneo", "Glanis"],
+                                "Equeclea":["Ergino","Periboea"],
+                                    "Ergino":["Corinna","Hipaso"],
+                                    "Periboea":["Oeneus","Agrius"],
+                        #Sub Arbol Nicomedes
+                            "Nicomedes":["Linanto","Medonte"],
+                                #Linanto
+                                    "Linanto":["Aleimon","Acestor"],
+                                        "Aleimon":["Pilos","Argeo"],
+                                        "Acestor":["Poeas","Piritoo"],
+                                            "Poeas":["Philammon","Sarpedon"],
+                                            "Piritoo":["Polidoro","Cleopatra"],
+                                #Medonte
+                                    "Medonte":["Lago","Capaneo"],
+                                        "Lago":["Clitio","Perieres"],
+                                        "Capaneo":["Licofonte","Ilares"],
+                #Fin Sub Arbol Asclepio
+                #Sub Arbol Orfeo
+                "Orfeo":["Linus","Eurydice"],
+                    "Eurydice":["Gargareia","Argonautas"],
+                    #Sub Arbol Gargareia
+                        "Gargareia":["Licaon","Cecropia"],
+                            "Licaon":["Nicomaco","Misipe"],
+                                "Nicomaco":["Alcmeon","Erato"],
+                                "Misipe":["Anaxibia","Astioquia"],
+                            "Cecropia":["Erecteo","Atenea"],
+                                "Erecteo":["Aglauro","Herse"],
+                                    "Aglauro":["Cecrops","Eryshicthon"],
+                                "Atenea":["Erictonio","Pandion"],
+                                    "Erictonio":["Butes"],
+                                    "Pandion":["Egeo","Pallas"],
+                    #Sub Arbol Argonautas
+                        "Argonautas":["Canace","Estinfalo"],
+                            "Canace":["Linceo","Abante"],
+                                "Linceo":["Euricione"],
+                                "Abante":["Pero","Laodice"],
+                            "Estinfalo":["Atys","Milon"],
+                                "Atys":["Aglaura","Aglie"],
+                                "Milon":["Deifobo","Prodico"],
+                #Fin Sub Arbol Orfeo
+            #Fin Sub Arbol Apolo
 
             
             "Artemisa": ["Hermes","Callisto"],
