@@ -23,7 +23,7 @@ class ArbolGenealogico:
             "Podalirio": ["Polidoro"],
             "Polidoro": ["Peonio","Polifonte"],
             "Peonio": ["Anficlea","Icario"],
-            "Anficlea": ["Milo","Bato"],
+            "Anficlea": ["Bato"],
 
             "Icario": ["Ersinoe","Ritmo"],
             "Ersinoe" : ["Butes","Crenaeus"],
@@ -91,7 +91,7 @@ class ArbolGenealogico:
             #Fin Sub Arbol Orfeo
         #Fin Sub Arbol Apolo
         #Todos los sin hijo:
-            "Milo": [],
+            
             "Bato": [],
             "Butes": [],
             "Crenaeus": [],
