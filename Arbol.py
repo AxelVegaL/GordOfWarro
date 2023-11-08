@@ -321,8 +321,8 @@ arbol = ArbolGenealogico()
 
 while True:
     buscar_ancestro_comun(arbol)
-    continuar = input("¿Deseas buscar otro ancestro anterior? (Sí/No): ")
-    if continuar.lower() != "sí":
+    continuar = input("¿Deseas buscar otro ancestro anterior? \n\t\t\tSí/No(default): ")
+    if continuar.lower() not in ["sí", "si", "s", "y", "yes"]:
         break
 
 
